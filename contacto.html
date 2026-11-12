@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - El universo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Contacto</h1>
+    <p>Comparte tus dudas y opiniones</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="contenido.html">Contenido</a>
+    <a href="informacion.html">Información adicional</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<div class="contenedor">
+    <h2>¡Nos interesa tu opinión!</h2>
+
+    <p>
+        Si tienes alguna duda o quieres compartir
+        lo que aprendiste sobre el universo,
+        puedes completar el siguiente formulario.
+    </p>
+
+    <form action="#" method="get">
+
+        <label>Nombre completo:</label>
+        <br>
+        <input type="text" name="nombre"
+               placeholder="Escribe tu nombre" required>
+
+        <br>
+
+        <label>Correo electrónico:</label>
+        <br>
+        <input type="email" name="correo"
+               placeholder="ejemplo@correo.com" required>
+
+        <br>
+
+        <label>Asunto:</label>
+        <br>
+        <select name="asunto" required>
+            <option value="">Selecciona una opción</option>
+            <option>Duda</option>
+            <option>Opinión</option>
+            <option>Información</option>
+        </select>
+
+        <br>
+
+        <label>Mensaje:</label>
+        <br>
+        <textarea name="mensaje"
+                  placeholder="Escribe tu mensaje aquí"
+                  required></textarea>
+
+        <br>
+
+        <input type="submit" value="Enviar mensaje">
+
+        <input type="reset" value="Limpiar formulario">
+
+    </form>
+</div>
+
+<div class="contenedor">
+    <h2>Gracias por visitarnos</h2>
+
+    <p>
+        Esperamos que hayas disfrutado este recorrido
+        por los misterios del universo.
+    </p>
+
+    <a href="index.html" class="boton">
+        Regresar al inicio
+    </a>
+</div>
+
+<footer>
+    Proyecto escolar | 2026
+</footer>
+
+</body>
+</html>

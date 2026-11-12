@@ -1,0 +1,122 @@
+
+
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #050d27;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 45px 15px 25px;
+    background-image: url("imagenes/espacio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    color: #c58aff;
+    font-size: 48px;
+    margin: 35px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding: 20px;
+    border-bottom: 1px solid #26365d;
+}
+
+nav a {
+    color: #16d9f5;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #c58aff;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.contenedor h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+.contenedor p {
+    color: #d5d9eb;
+    font-size: 21px;
+    line-height: 1.6;
+}
+
+.contenedor img {
+    width: 100%;
+    border-radius: 22px;
+    margin: 20px 0;
+    border: 1px solid #26365d;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #12cce9;
+    color: #00152c;
+    padding: 20px 45px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.boton:hover {
+    background-color: #a978e8;
+}
+
+footer {
+    border-top: 1px solid #26365d;
+    margin: 50px;
+    padding: 25px;
+    color: #bfc8e5;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 34px;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .contenedor h2 {
+        font-size: 29px;
+    }
+
+    .contenedor p {
+        font-size: 18px;
+    }
+
+    .boton {
+        font-size: 18px;
+        padding: 16px 28px;
+    }
+}
